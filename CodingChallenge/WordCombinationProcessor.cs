@@ -1,6 +1,6 @@
 ﻿namespace WordCombinationFinder
 {
-    public class WordCombinationProcessor
+    public class WordCombinationProcessor : IWordCombinationProcessor
     {
         private readonly IWordDataSource _wordDataSource;
         private readonly IWordCombinationDiscoverer _wordCombinationDiscoverer;
